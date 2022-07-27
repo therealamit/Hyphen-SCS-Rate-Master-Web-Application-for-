@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+  
+  <servlet-name>abcd</servlet-name>
+  <servlet-class>com.ratemaster.Addservlet</servlet-class>
+  
+  
+  </servlet>
+  
+  <servlet-mapping>
+  
+  <servlet-name>abcd</servlet-name>
+  <url-pattern>/rate</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  
+  <servlet-name>abcd1</servlet-name>
+  <servlet-class>com.ratemaster.Addservlet1</servlet-class>
+  
+  
+  </servlet>
+   <servlet-mapping>
+  
+  <servlet-name>abcd1</servlet-name>
+  <url-pattern>/rate1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>
